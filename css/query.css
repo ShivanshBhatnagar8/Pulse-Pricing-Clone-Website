@@ -1,0 +1,303 @@
+/* FONT SIZES 
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98
+*/
+
+/* SPACING SYSTEMS
+2/4/8/12/16/24/32/48/64/80/96/128 */
+
+/* Below 1100px  */
+@media (max-width: 75em) {
+  .logo {
+    margin-right: 0;
+    width: 35%;
+  }
+  .nav-links {
+    gap: 0rem;
+    font-size: 1.4rem;
+  }
+  .box-three::before {
+    font-size: 1.4rem;
+  }
+  .btn--free--trial {
+    font-size: 1.8rem;
+    padding: 1.8rem 1rem;
+    transition: none;
+  }
+  .btn--free--trial:hover {
+    box-shadow: none;
+  }
+  /* ****************** */
+  /* FOOTER SECTION */
+  /* *********** */
+  .logo-2 {
+    justify-content: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .link-of-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Below 944px */
+@media (max-width: 59em) {
+  .html {
+    font-size: 56.25%;
+  }
+  /* NAVIGATION */
+  .logo-img {
+    width: 70%;
+  }
+  .nav-links {
+    gap: 0rem;
+    font-size: 1.2rem;
+  }
+  .btn--sing-up {
+    transition: none;
+  }
+  .btn--sing-up a:hover {
+    box-shadow: none;
+  }
+  /* *********** */
+
+  /* *********** */
+  /* HERO SECTION */
+  /* *********** */
+  .box-one {
+    margin-top: 0;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .primary-text {
+    display: block;
+    text-align: start;
+    margin-bottom: 0;
+  }
+
+  .pricing-box {
+    display: block;
+    padding: 0;
+  }
+
+  .box-two {
+    width: auto;
+    position: relative;
+    padding: 5rem;
+  }
+  .box-three {
+    width: auto;
+    padding: 5rem;
+    position: relative;
+  }
+  .recommend-plan h2 {
+    text-align: start;
+  }
+  .recommend-plan p {
+    text-align: start;
+  }
+  .btn-div {
+    display: block;
+    text-align: center;
+  }
+  .now {
+    display: block;
+    width: 80%;
+    bottom: 0;
+    left: 7rem;
+    position: absolute;
+    margin-bottom: 1rem;
+    transition: none;
+  }
+  .fifth-heading {
+    text-align: start;
+  }
+  .starter-plan h3 {
+    text-align: start;
+  }
+  .price--2 {
+    text-align: start;
+  }
+  .price-list {
+    display: block;
+  }
+  .sub-logo {
+    width: 30%;
+  }
+  .br-cl {
+    display: none;
+  }
+  /* ************* */
+  /* FAQ SECTION */
+  /* *********** */
+  .question-heading {
+    font-size: 2.4rem;
+  }
+  .answer {
+    font-size: 2rem;
+  }
+  /* FOOTER SECTION */
+  .footer-links h5 {
+    font-size: 1.6rem;
+  }
+  .footer-links a {
+    font-size: 1.6rem;
+  }
+}
+/* Below 800px */
+/* NAVIGATION SECTION */
+@media (max-width: 50em) {
+  /* Mobile Navigation */
+  .logo {
+    width: 50%;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1;
+  }
+  .nav-links {
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    flex-direction: column;
+    gap: 4.8rem;
+    opacity: 0; /*Hiding it visually*/
+    transition: all 1s ease-in-out; /*Smooth animation for mobile Navigation*/
+    pointer-events: none; /* Unaccessible to mouse and keyboard */
+    visibility: hidden; /* Hide it from screen readers  */
+  }
+  .links {
+    font-size: 2.6rem;
+  }
+  .nav-open .nav-links {
+    /*Here we created a class nav-open on navigation which will control the opening and closing of the mobile navigation*/
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0); /* A nice sliding effect for mobile navigation*/
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .btn--sing-up a {
+    border: none;
+  }
+}
+
+/* Below 700px */
+@media (max-width: 44em) {
+  .para-br {
+    display: none;
+  }
+  .now {
+    left: 5.4rem;
+  }
+  .faq-section {
+    padding: 0;
+  }
+  .faq-box {
+    display: block;
+  }
+  .question-box {
+    display: block;
+    width: auto;
+  }
+  .btn--free--trial {
+    width: 80%;
+  }
+}
+/* Below 550px */
+@media (max-width: 34em) {
+  .logo {
+    width: 50%;
+  }
+  .heading {
+    font-size: 4.2rem;
+  }
+  .second-heading {
+    margin-left: -1rem;
+  }
+  .customer-benefit {
+    margin-left: 0;
+  }
+  .para-2,
+  .get-link {
+    margin-left: 1rem;
+  }
+  .now {
+    left: 3.6rem;
+  }
+  .quote {
+    font-size: 1.6rem;
+  }
+  .question-heading {
+    font-size: 2rem;
+  }
+  .answer {
+    font-size: 1.6rem;
+  }
+  .footer-links {
+    gap: 1.4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* Below 450 */
+@media (max-width: 28em) {
+  .heading {
+    font-size: 3rem;
+  }
+  .second-heading {
+    margin-left: -2rem;
+  }
+  .customer-benefit {
+    margin-left: -1rem;
+  }
+  .para-2,
+  .get-link {
+    margin-left: 0;
+  }
+  .fourth-heading {
+    font-size: 2.6rem;
+    margin-top: 4rem;
+  }
+  .quote {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .question-heading {
+    font-size: 1.6rem;
+  }
+  .answer {
+    font-size: 1.4rem;
+  }
+  .btn--free--trial {
+    width: auto;
+  }
+  .footer-links {
+    grid-template-columns: 1fr 1fr;
+  }
+  .copyright-section {
+    width: auto;
+  }
+  .copyright {
+    padding: 1rem;
+    font-size: 1rem;
+    margin-left: -2rem;
+  }
+}
