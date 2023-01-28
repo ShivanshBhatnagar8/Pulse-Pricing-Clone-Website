@@ -1,6 +1,6 @@
-# PULSE PRICING WEBSITE (CLONED VERSION)
+# PULSE PRICING WEBSITE (CLONE VERSION)
 
-This cloned website was made for pratice purpose only. This website does not have any link to the official Website. This website was made with the help of https://www.frontendpractice.com/projects/pulse. 
+This clone website was made for pratice purpose only. This website does not have any link to the official Website. This website was made with the help of https://www.frontendpractice.com/projects/pulse. 
 
 
 ## 🛠 Skills
